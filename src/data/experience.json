@@ -1,0 +1,72 @@
+[
+  {
+    "role": "Servicenow Developer",
+    "company": "Aoop Cloud Solutions",
+    "job": "CLT",
+    "serviceTime": "De Novembro de 2023 até os dias atuais",
+    "time": "",
+    "local": "São Paulo, Brasil",
+    "type": "Trabalho Remoto",
+    "description": [
+      "Crio e implemento soluções personalizadas no ServiceNow para atender as necessidades específicas de negócios do cliente, utilizando JavaScript, Glide API, Scripts Includes, Business Rules, Schedules Jobs e outras ferramentas nativas da plataforma.",
+      "Desenvolvo fluxos e workflows automatizados para otimizar processos de TI e de negócios, reduzindo o tempo de resposta e aumentando a eficiência operacional.",
+      "Desenvolvo interfaces de usuário intuitivas utilizando Vanilla Javascript, HTML, CSS, Service Portal, Pages, Widgets e Client Scripts proporcionando uma experiência de usuário mais amigável e eficiente.",
+      "Participo ativamente de iniciativas de melhoria contínua, otimizando scripts e fluxos de trabalho existentes para aumentar o desempenho e a escalabilidade das soluções implementadas. Colaboro com equipes multifuncionais que utilizavam a metodologia Scrum e Ágile Board para identificar e implementar melhorias nas práticas de desenvolvimento."
+    ]
+  },
+  {
+    "role": "Redator Técnico",
+    "company": "Revelo Community Brazil",
+    "job": "Freelance",
+    "serviceTime": "De Agosto de 2022 até os dias atuais",
+    "time": "",
+    "local": "América Latina",
+    "type": "Trabalho Remoto",
+    "description": [
+      "O cargo consiste em criar artigos técnicos sobre temas relacionados às tecnologias React, Tailwind CSS, Node.js, MongoDB, ServiceNow, Firebase e diversas outras linguagens, frameworks, bibliotecas e tecnologias. Estes artigos são publicados em português e espanhol, nas duas plataformas correspondentes da Revelo Community."
+    ]
+  },
+  {
+    "role": "Monitor de Operações",
+    "company": "Aec",
+    "job": "CLT",
+    "serviceTime": "De Outubro de 2019 até Março de 2023",
+    "time": "3 anos e 6 meses",
+    "local": "Campina Grande, Paraíba, Brasil",
+    "type": "Trabalho Presencial / Trabalho Remoto",
+    "description": [
+      "No cargo em questão, a atuação é voltada ao estímulo da melhoria contínua dos operadores de telemarketing por meio de informativos, reuniões, apresentações e feedbacks individuais. Além disso, faz parte do cargo gerar sugestões de melhoria baseado na experiência final do usuário pós interação (Análise CSAT)."
+    ]
+  },
+  {
+    "role": "Profissional de Telemarketing",
+    "company": "Orbitall SA",
+    "job": "CLT",
+    "serviceTime": "De Fevereiro de 2014 até Setembro de 2016",
+    "time": "2 anos e 8 meses",
+    "local": "Campina Grande, Paraíba, Brasil",
+    "type": "Trabalho Remoto",
+    "description": [
+      "Criação de laudos de defesa da Caixa Econômica Federal em processos Jurídicos movidos via Procon.",
+      "Cobranças de cartões bloqueados e cancelados da Caixa Econômica Federal.",
+      "Cobranças de dívidas em escritório externo.",
+      "Atendimento ao cliente da Caixa Econômica Federal e Banco Bonsucesso.",
+      "Vendas de empréstimo consignado do Banco Bonsucesso."
+    ]
+  },
+  {
+    "role": "Técnico de Informática",
+    "company": "Faculdade Maurício de Nassau",
+    "job": "CLT",
+    "serviceTime": "De Julho de 2012 até Março de 2014",
+    "time": "1 ano e 9 meses",
+    "local": "Campina Grande, Paraíba, Brasil",
+    "type": "Trabalho Presencial",
+    "description": [
+      "Manutenção dos computadores da instituição (mais de cinquenta salas de aula, além dos setores de Coordenação, Diretoria, Recursos Humanos, Financeiro, Biblioteca, Recepção e Secretaria.",
+      "Organização e apoio aos alunos nos três Laboratórios de Informática existentes (cada um com quarenta computadores).",
+      "Administração das redes de internet existentes entre os setores da Instituição.",
+      "Comissão Interna de Prevenção de Acidentes (CIPA)."
+    ]
+  }
+]
