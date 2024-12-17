@@ -8,3 +8,11 @@ export interface IJob {
   type: String;
   description: String[];
 }
+
+export interface ICourse {
+  company: String;
+  course: String;
+  time: String;
+  description: String[];
+  skills: String[];
+}

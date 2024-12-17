@@ -1,10 +1,10 @@
 'use client'
-import { IJob } from "@/interfaces";
+import { ICourse, IJob } from "@/interfaces";
 import experienceList from '../data/experience.json';
 import { useState } from "react";
 import Image from "next/image";
 
-export default function JobItem(props: { item: IJob, index: number }) {
+export default function CourseItem(props: { item: ICourse, index: number }) {
   const { item, index } = props;
   const [showMoreData, setShowMoreData] = useState(false);
   return(
@@ -31,14 +31,13 @@ export default function JobItem(props: { item: IJob, index: number }) {
               />
             </div>
             <div>
-              <p className="font-bold">{ item.role }</p>
-              <p className="text-sm mt-0.5">{ item.company } · { item.job }</p>
+              <p className="font-bold text-sm">{ item.course }</p>
+              <p className="text-sm">{ item.company }</p>
             </div>
           </div>
-          <p className="hidden sm:flex font-bold">{ item.role }</p>
-          <p className="hidden sm:flex text-sm mt-0.5">{ item.company } · { item.job }</p>
-          <p className="text-sm text-gray-500 mt-0.5">{ item.serviceTime } · { item.time }</p>
-          <p className="text-sm text-gray-500">{ item.local } · { item.type }</p>
+          <p className="hidden sm:flex font-bold">{ item.course }</p>
+          <p className="hidden sm:flex text-sm mt-0.5">{ item.company }</p>
+          <p className="text-sm text-gray-500 mt-0.5">{ item.time }</p>
           <ul className="mt-2 text-sm">
             {
               showMoreData
@@ -46,6 +45,19 @@ export default function JobItem(props: { item: IJob, index: number }) {
                   <li className="mb-2" key={index}> - { text }</li>
                 ))
             }
+            <li className="flex">
+              <div className="flex flex-wrap">
+                <strong className="pr-1">Competências: </strong>
+                {
+                  item.skills.map((text: String, index: number) => (
+                    <div className="flex">
+                      <span>{ text }</span>
+                      { index < item.skills.length - 1 && <span className="px-1"> · </span> }
+                    </div>
+                  ))
+                }
+              </div>
+            </li>
           </ul>
           <div className="w-full flex items-center justify-end">
             <button
@@ -55,7 +67,6 @@ export default function JobItem(props: { item: IJob, index: number }) {
             >
               { !showMoreData ? '...ver mais': '...ver menos' }
             </button>
-
           </div>
         </div>
       </div>

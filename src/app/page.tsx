@@ -1,5 +1,6 @@
 'use client'
 import About from "@/components/about";
+import Academics from "@/components/academics";
 import Experience from "@/components/experience";
 import Presentation from "@/components/presentation";
 
@@ -14,9 +15,7 @@ export default function Home() {
           <Presentation />
           <About />
           <Experience />
-          <div className="mb-3 bg-white rounded-xl p-8">
-            Formação
-          </div>
+          <Academics />
           <div className="mb-3 bg-white rounded-xl p-8">
             Recomendações
           </div>
