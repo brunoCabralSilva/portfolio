@@ -12,7 +12,7 @@ export default function Presentation() {
   } = useContext(contexto);
 
   return(
-    <div className="mt-5 mb-3 bg-white rounded-xl relative">
+    <div className="mt-10 sm:mt-5 mb-3 bg-white rounded-xl relative">
       { showInformations && <Informations />  }
       { sendMessage && <Message />  }
       <div className="rounded-full absolute z-10 top-12 sm:top-20 md:top-28 left-2 sm:left-5">
@@ -56,7 +56,7 @@ export default function Presentation() {
           <div>
             Servicenow | FullStack | Typescript | Java | React | Node | CSS | MySQL | MongoDB
           </div>
-          <div className="flex flex-col sm:flex-row">
+          <div className="flex flex-col sm:flex-row items-start">
             <span className="text-gray-500">João Pessoa, Paraíba, Brasil</span>
             <span className="px-1 hidden sm:flex">·</span>
             <button

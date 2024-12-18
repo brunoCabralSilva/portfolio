@@ -1,6 +1,6 @@
 'use client'
-import { ICourse, IJob } from "@/interfaces";
-import experienceList from '../data/experience.json';
+import { ICourse } from "@/interfaces";
+import academicsList from '../data/academics.json';
 import { useState } from "react";
 import Image from "next/image";
 
@@ -50,7 +50,7 @@ export default function CourseItem(props: { item: ICourse, index: number }) {
                 <strong className="pr-1">Competências: </strong>
                 {
                   item.skills.map((text: String, index: number) => (
-                    <div className="flex">
+                    <div className="flex" key={index}>
                       <span>{ text }</span>
                       { index < item.skills.length - 1 && <span className="px-1"> · </span> }
                     </div>
@@ -71,7 +71,7 @@ export default function CourseItem(props: { item: ICourse, index: number }) {
         </div>
       </div>
       {
-        index !== experienceList.length - 1
+        index !== academicsList.length - 1
         && <div className="w-full pt-3 pb-5"><hr /></div> }
     </div>
   );

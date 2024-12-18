@@ -1,0 +1,51 @@
+[
+    {
+      "name": "Deploy de um Projeto React com Next.js no Vercel",
+      "link": "https://community.revelo.com.br/deploy-de-um-projeto-react-com-next-js-no-vercel-via-site/"
+    },
+    {
+      "name": "React Redux e TypeScript",
+      "link": "https://community.revelo.com.br/react-redux-e-typescript/"
+    },
+    {
+      "name": "Diretivas no Angular",
+      "link": "https://community.revelo.com.br/diretivas-no-angular/"
+    },
+    {
+      "name": "Integrando MongoDB e NestJS",
+      "link": "https://community.revelo.com.br/integrando-mongodb-e-nestjs/"
+    },
+    {
+      "name": "Integrando o Firebase no React",
+      "link": "https://community.revelo.com.br/integrando-o-firebase-no-react/"
+    },
+    {
+      "name": "React Router Dom v6 - O que mudou",
+      "link": "https://community.revelo.com.br/react-router-dom-v6-o-que-mudou/"
+    },
+    {
+      "name": "Primeiros passos com o Angular",
+      "link": "https://community.revelo.com.br/primeiros-passos-com-o-angular/"
+    },
+    {
+      "name": "Utilizando rotas no Node",
+      "link": "https://community.revelo.com.br/utilizando-rotas-no-node-js/"
+    },
+    {
+      "name": "Utilizando Context no React",
+      "link": "https://community.revelo.com.br/utilizando-context-no-react/"
+    },
+    {
+      "name": "Três passos para publicar projetos React no GitHub",
+      "link": "https://community.revelo.com.br/tres-passos-para-publicar-projetos-react-no-github/"
+    },
+    {
+      "name": "Conectando Front e o Back com o Axios",
+      "link": "https://community.revelo.com.br/conectando-front-e-o-back-com-o-axios/"
+    },
+    {
+      "name": "Realizando um CRUD no MySQL com o Node",
+      "link": "https://community.revelo.com.br/realizando-un-crud-no-mysql-com-o-node-js/"
+    }
+
+]

@@ -1,0 +1,100 @@
+[
+  {
+    "title": "Meu jeito Geek",
+    "deploy": "https://meujeitogeek.vercel.app/",
+    "github": "",
+    "description": "Loja virtual voltada ao público geek, com funcionalidades como seleção de produtos, finalização de compras e envio de pedidos. A plataforma notifica o proprietário por e-mail e permite acompanhar pedidos em tempo real, garantindo transparência e gestão eficiente.",
+    "skills": ["tailwindcss", "typescript", "vercel", "html5", "css3", "reactjs", "next-js", "firebase"]
+  },
+  {
+    "title": "Segredos da Fúria",
+    "deploy": "https://segredosdafuria.vercel.app/",
+    "github": "https://github.com/brunoCabralSilva/segredosdafuria",
+    "description": "Descubra o universo de 'Werewolf: The Apocalypse 5th' em minha aplicação React desenvolvida com Next.js, estilizada com Tailwind CSS e persistida em Firebase.",
+    "skills": ["tailwindcss", "typescript", "vercel", "html5", "css3", "reactjs", "next-js"]
+  },
+  {
+    "title": "Valyrian Wars",
+    "deploy": "https://valyrianwar.vercel.app/",
+    "github": "https://github.com/brunoCabralSilva/houseofthedragon",
+    "description": "Aplicação criada em Vue.js, Firebase e Tailwind que disponibiliza batalhas entre dragões da série House of Dragon, onde é possível personalizar seus dragões a cada nível alcançado.",
+    "skills": ["firebase", "vuejs", "firebase-auth", "tailwind-css"]
+  },
+  {
+    "title": "Gwent",
+    "deploy": "https://gwent-smoky.vercel.app/",
+    "github": "https://github.com/brunoCabralSilva/gwent",
+    "description": "Aplicação criada em vue que permite que usuários joguem Gwent (jogo de cartas do The Witcher 3) entre si em tempo real.",
+    "skills": ["firebase", "vuejs", "vercel", "tailwindcss"]
+  },
+  {
+    "title": "Recipes",
+    "deploy": "https://brunocabralsilva.github.io/recipes/",
+    "github": "https://github.com/brunoCabralSilva/recipes",
+    "description": "Aplicação de receitas que utiliza o que há de mais moderno dentro do ecossistema React: Hooks e Context API!",
+    "skills": ["javascript", "html5", "css3", "swiper", "tailwind", "tailwind-css", "framer-motion"]
+  },
+  {
+    "title": "Pokedéx React",
+    "deploy": "https://brunocabralsilva.github.io/pokedex-react/",
+    "github": "https://github.com/brunoCabralSilva/pokedex-react",
+    "description": "Projeto destinado a criar uma aplicação que traga informações sobre todos os pokémons existentes, baseados na API PokeAPI.",
+    "skills": ["javascript", "html5", "css3", "reactjs", "react-router-dom", "tailwindcss", "api-rest"]
+  },
+  {
+    "title": "Cthulhu Mythos",
+    "deploy": "https://brunocabralsilva.github.io/cthulhu-mythos/#/",
+    "github": "https://github.com/brunoCabralSilva/cthulhu-mythos",
+    "description": "Aplicação utilizada para praticar alternância de slides, grid e sidebar flutuante",
+    "skills": ["javascript", "html5", "css3", "reactjs"]
+  },
+  {
+    "title": "Tunes",
+    "deploy": "https://brunocabralsilva.github.io/tunes/",
+    "github": "https://github.com/brunoCabralSilva/tunes",
+    "description": "Décimo quarto projeto da realizado na Trybe que consiste em uma aplicação capaz de reproduzir músicas das mais variadas bandas e artistas, além de ser possível criar uma lista de músicas favoritas e editar o perfil da pessoa usuária logada.",
+    "skills": ["javascript", "html5", "css3", "reactjs", "react-router-dom", "api-rest"]
+  },
+  {
+    "title": "Solar System",
+    "deploy": "https://brunocabralsilva.github.io/solar-system/",
+    "github": "https://github.com/brunoCabralSilva/solar-system",
+    "description": "Projeto criado com o objetivo de utilizar imports para trazer componentes em diferentes arquivos, criar componentes de classe em React, criar múltiplos componentes a partir de um array, fazer uso de props e de PropTypes corretamente.",
+    "skills": ["javascript", "html5", "css3", "reactjs", "api-rest"]
+  },
+  {
+    "title": "Trivia",
+    "deploy": "https://brunocabralsilva.github.io/trivia/",
+    "github": "https://github.com/brunoCabralSilva/trivia",
+    "description": "Jogo de perguntas e respostas baseado no jogo Trivia (tipo um show do milhão americano rs) utilizando React e Redux, desenvolvido em grupo suas funcionalidades de acordo com as demandas definidas em um quadro Kanban.",
+    "skills": ["javascript", "html5", "css3", "reactjs", "redux", "api-rest"]
+  },
+  {
+    "title": "Wallet",
+    "deploy": "https://brunocabralsilva.github.io/wallet/",
+    "github": "https://github.com/brunoCabralSilva/wallet",
+    "description": "Décimo oitavo projeto da Trybe realizado com o objetivo de demonstrar os conhecimentos adquiridos com React e Redux.",
+    "skills": ["javascript", "html5", "css3", "reactjs", "redux", "api-rest", "framer-motion", "tailwindcss"]
+  },
+  {
+    "title": "Delivery App",
+    "deploy": "",
+    "github": "https://github.com/brunoCabralSilva/delivery-app",
+    "description": "Neste projeto, desenvolvemos um app de delivery para uma distribuidora de bebidas. O grupo ficou responsável por criar e integrar tanto o back-end quanto o front-end.",
+    "skills": ["nodejs", "javascript", "mysql", "express", "html5", "css3", "reactjs", "sequelize", "railway", "react-router-dom", "tailwindcss"]
+  },
+  {
+    "title": "Chronicles of Artifacts",
+    "deploy": "",
+    "github": "https://github.com/brunoCabralSilva/vehicles-mercado-livre",
+    "description": "O Chronicles of Artifacts é uma aplicação Java que oferece um sistema completo de gerenciamento de classes de personagens, armas, armaduras e artefatos mágicos em um mundo de RPG, com integração MySQL e JDBC.",
+    "skills": ["mysql", "java", "jdbc", "mysql-database", "java-8", "msc", "jdbc-database", "model-service-controller"]
+  },
+  {
+    "title": "Safari",
+    "deploy": "",
+    "github": "https://github.com/brunoCabralSilva/safari",
+    "description": "Aplicação fullstack de vendas de produtos, utilizada para colocar em prática as linguagens, frameworks e bibliotecas mencionadas.",
+    "skills": ["nodejs", "javascript", "mysql", "typescript", "html5", "reactjs", "mysql-database", "jwt-authentication", "nestjs", "css5", "md5-hash", "tailwindcss"]
+  }
+]

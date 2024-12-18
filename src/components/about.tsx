@@ -6,7 +6,7 @@ export default function About() {
     <div className="mb-3 bg-white rounded-xl p-8">
       <p className="font-bold text-xl mb-5">Sobre</p>
       <p className="mb-2">
-        Bruno é um Desenvolvedor Full Stack, com foco principalmente em React, Mysql, MongoDB e Node.js. É uma pessoa completamente apaixonada por RPG, O Senhor dos Anéis e filmes da Marvel. Atualmente vive em João Pessoa, Paraíba, Brasil.
+        Bruno é um Desenvolvedor Full Stack, com foco principalmente em React.js, Angular.js, Typescript, Node.js, Mysql e MongoDB. É uma pessoa completamente apaixonada por RPG, O Senhor dos Anéis e filmes da Marvel. Atualmente vive em João Pessoa, Paraíba, Brasil.
       </p>
       {
         showMoreData &&

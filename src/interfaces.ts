@@ -16,3 +16,16 @@ export interface ICourse {
   description: String[];
   skills: String[];
 }
+
+export interface IArticle {
+  name: string;
+  link: string;
+}
+
+export interface IProject {
+  title: string;
+  deploy: string;
+  github: string;
+  description: string;
+  skills: string[];
+}
