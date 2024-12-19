@@ -8,9 +8,9 @@ import { VscError } from "react-icons/vsc";
 
 export default function Message() {
   const { setSendMessage } = useContext(contexto);
-  const [name, setName] = useState<string>('assunto');
-  const [email, setEmail] = useState<string>('bruno.cabral.silva2018@gmail.com');
-  const [message, setMessage] = useState<string>('mensagem');
+  const [name, setName] = useState<string>('');
+  const [email, setEmail] = useState<string>('');
+  const [message, setMessage] = useState<string>('');
   const [messageToUser, setMessageToUser] = useState<string>('');
   const [errorMessage, setErrorMessage] = useState<boolean>(false);
   const [errorName, setErrorName] = useState<boolean>(false);
