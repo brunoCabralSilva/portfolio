@@ -15,7 +15,7 @@ export default function Informations() {
     <div className="w-full h-screen fixed top-0 left-0 bg-black/60 flex justify-center z-30 py-[5vh]">
       <div className="px-2 sm:px-0 w-11/12 sm:w-2/3 bg-white h-[90vh] mt-2 rounded-xl relative">
         <div className="flex items-center justify-between w-full px-2 py-2 top-0 right-0 h-[10vh]">
-          <div className="text-[#0A66C2] hover:text-[#004182] cursor-pointer font-bold duration-400 transition-colors text-lg leading-5 sm:text-xl sm:pl-5">
+          <div className="text-[#0A66C2] hover:text-[#004182] cursor-pointer font-bold duration-400 transition-colors text-lg leading-5 sm:pl-5">
             Informações de Contato
           </div>
           <button
