@@ -6,7 +6,7 @@ import { useState } from 'react';
 export default function Experience() {
   const [showMoreData, setShowMoreData] = useState(false);
   return(
-    <div className="mb-3 bg-white rounded-xl p-8">
+    <div className="mb-3 bg-white rounded-xl p-4 sm:p-8">
       <p className="font-bold text-xl mb-5">Experiência</p>
       <div className="mb-2">
         <div>

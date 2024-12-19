@@ -3,7 +3,7 @@ import articlesList from '../data/articles.json';
 import Image from 'next/image';
 export default function Articles() {
   return(
-    <div className="mb-3 bg-white rounded-xl p-8">
+    <div className="mb-3 bg-white rounded-xl p-4 sm:p-8">
       <p className="font-bold text-xl mb-5">Artigos</p>
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-2">
         {

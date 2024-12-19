@@ -3,7 +3,7 @@ import { useState } from "react";
 export default function About() {
   const [showMoreData, setShowMoreData] = useState(false);
   return(
-    <div className="mb-3 bg-white rounded-xl p-8">
+    <div className="mb-3 bg-white rounded-xl p-4 sm:p-8">
       <p className="font-bold text-xl mb-5">Sobre</p>
       <p className="mb-2">
         Bruno é um Desenvolvedor Full Stack, com foco principalmente em React.js, Angular.js, Typescript, Node.js, Mysql e MongoDB. É uma pessoa completamente apaixonada por RPG, O Senhor dos Anéis e filmes da Marvel. Atualmente vive em João Pessoa, Paraíba, Brasil.

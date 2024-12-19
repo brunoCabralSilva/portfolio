@@ -35,7 +35,7 @@ export default function Presentation() {
         />
       </div>
       <div className="w-full h-1/2 relative z-20 flex flex-col-reverse sm:flex-col mt-10 sm:mt-0">
-        <div className="flex justify-start flex-wrap sm:justify-end items-center w-full gap-2 p-2 sm:p-5">
+        <div className="flex justify-start flex-wrap sm:justify-end items-center w-full gap-2 px-4 pt-2 pb-4 sm:pb-2 sm:px-4 sm:p-5">
           <button
             type="button"
             onClick={ () => setShowInformations(true) }
@@ -51,7 +51,7 @@ export default function Presentation() {
             Enviar Mensagem
           </button>
         </div>
-        <div className="p-4 pb-1 sm:p-4 md:px-8 md:py-10 lg:py-6">
+        <div className="p-4 pb-1 md:px-8 md:py-10 lg:py-6">
           <div className="font-bold text-xl">Bruno Cabral</div>
           <div>
             Servicenow | FullStack | Typescript | Java | React | Node | CSS | MySQL | MongoDB
