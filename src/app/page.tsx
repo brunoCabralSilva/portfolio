@@ -9,7 +9,7 @@ import Image from "next/image";
 
 export default function Home() {
   return (
-    <div className="">
+    <div className="text-black">
       <div className="bg-white sm:h-[8vh] flex justify-center items-center">
         <div className="w-full px-4 py-2 sm:py-0">
           <Image
