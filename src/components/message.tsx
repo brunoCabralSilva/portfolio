@@ -1,10 +1,13 @@
 'use client'
-import { useContext, useState } from "react";
+import { useContext, useEffect, useState } from "react";
 import emailjs from 'emailjs-com';
 import contexto from "@/context/context";
 import { IoIosCloseCircleOutline } from "react-icons/io";
 import { BiMailSend } from "react-icons/bi";
 import { VscError } from "react-icons/vsc";
+import dotenv from 'dotenv';
+
+dotenv.config();
 
 export default function Message() {
   const { setSendMessage } = useContext(contexto);
@@ -16,6 +19,16 @@ export default function Message() {
   const [errorName, setErrorName] = useState<boolean>(false);
   const [errorEmail, setErrorEmail] = useState<boolean>(false);
   const [type, setType] = useState<string>('');
+
+  useEffect(() => {
+    const userID: string | undefined = process.env.NEXT_PUBLIC_USER_ID;
+    const templateID: string | undefined = process.env.NEXT_PUBLIC_TEMPLATE_ID;
+    const serviceID: string | undefined = process.env.NEXT_PUBLIC_SERVICE_ID;
+
+    console.log('userID: ' + userID);
+    console.log('templateID: ' + templateID);
+    console.log('serviceID: ' + serviceID);
+  }, []);
 
   const sendEmail = (e: React.FormEvent<HTMLFormElement>) => {
     const validate = /\S+@\S+\.\S+/;
@@ -37,12 +50,17 @@ export default function Message() {
       setErrorName(false);
       setErrorEmail(false);
       setErrorMessage(false);
-      const userID: string = 'Pj9MQyLLkLjcAkfIU';
-      const templateID: string = 'template_vpmjsmf';
-      const serviceID: string = 'service_mb79wjx';
+      const userID: string | undefined = process.env.REACT_APP_USER_ID;
+      // 'Pj9MQyLLkLjcAkfIU';
+      const templateID: string | undefined = process.env.REACT_APP_TEMPLATE_ID;
+      // 'template_vpmjsmf';
+      const serviceID: string | undefined = process.env.REACT_APP_SERVICE_ID;
+      // 'service_mb79wjx';
       try {
-        emailjs.sendForm(serviceID, templateID, e.target as HTMLFormElement, userID);
-        (e.target as HTMLFormElement).reset();
+        if (serviceID && templateID && userID) {
+          emailjs.sendForm(serviceID, templateID, e.target as HTMLFormElement, userID);
+          (e.target as HTMLFormElement).reset();
+        }
       } catch (error) {
         global.alert('erro: ' + error);
       }
