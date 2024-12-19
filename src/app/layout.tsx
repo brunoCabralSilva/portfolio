@@ -36,10 +36,23 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
+        <title>Portfólio de Bruno Cabral</title>
         <meta
-            property="og:image"
-            content="https://media.licdn.com/dms/image/v2/D4D16AQGkz1V76eEzuA/profile-displaybackgroundimage-shrink_350_1400/profile-displaybackgroundimage-shrink_350_1400/0/1698852550654?e=1740009600&v=beta&t=MuNe9y7culOznmyFJTBtyef8VA8BmtxvoreoRFHfRQU"
-          />
+          name="description"
+          content="Confira meus projetos e habilidades como desenvolvedor fullstack."
+        />
+        {/* Open Graph Meta Tags */}
+        <meta property="og:title" content="Portfólio de Bruno Cabral" />
+        <meta
+          property="og:description"
+          content="Veja meus projetos e habilidades como desenvolvedor fullstack."
+        />
+        <meta property="og:url" content="https://bruno-cabral-portfolio.vercel.app/" />
+        <meta
+          property="og:image"
+          content="https://bruno-cabral-portfolio.vercel.app/icon.png"
+        />
+        <meta property="og:type" content="website" />
       </head>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
