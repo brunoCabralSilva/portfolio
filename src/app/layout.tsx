@@ -14,7 +14,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Portfólio de Bruno Cabral",
+  title: "Portfólio",
   description: "Portfólio de Bruno Cabral - Desenvolvedor Fullstack",
 };
 

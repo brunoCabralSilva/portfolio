@@ -35,8 +35,8 @@ export default function Informations() {
             <div>
               <p className="">Currículo:</p>
               <a
-                href="/curriculo.pdf"
-                download="curriculo.pdf"
+                href="/bruno_cabral_curriculo.pdf"
+                download="bruno_cabral_curriculo.pdf"
                 className="font-bold hover:underline text-[#0a66c2] hover:text-[#004182] transition-colors duration-400"
               >
                 bruno-cabral.pdf
