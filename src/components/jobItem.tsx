@@ -42,7 +42,7 @@ export default function JobItem(props: { item: IJob, index: number }) {
           <ul className="mt-2 text-sm">
             {
               showMoreData
-                && item.description.map((text: String, index: number) => (
+                && item.description.map((text: string, index: number) => (
                   <li className="mb-2" key={index}> - { text }</li>
                 ))
             }

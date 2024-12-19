@@ -8,16 +8,16 @@ import { VscError } from "react-icons/vsc";
 
 export default function Message() {
   const { setSendMessage } = useContext(contexto);
-  const [name, setName] = useState<string>('');
-  const [email, setEmail] = useState<string>('');
-  const [message, setMessage] = useState<string>('');
+  const [name, setName] = useState<string>('assunto');
+  const [email, setEmail] = useState<string>('bruno.cabral.silva2018@gmail.com');
+  const [message, setMessage] = useState<string>('mensagem');
   const [messageToUser, setMessageToUser] = useState<string>('');
   const [errorMessage, setErrorMessage] = useState<boolean>(false);
   const [errorName, setErrorName] = useState<boolean>(false);
   const [errorEmail, setErrorEmail] = useState<boolean>(false);
   const [type, setType] = useState<string>('');
 
-  const sendEmail = (e: any) => {
+  const sendEmail = (e: React.FormEvent<HTMLFormElement>) => {
     const validate = /\S+@\S+\.\S+/;
     const vEmail = !email || !validate.test(email) || email === '';
     e.preventDefault();
@@ -37,14 +37,14 @@ export default function Message() {
       setErrorName(false);
       setErrorEmail(false);
       setErrorMessage(false);
-      const userID: any = 'Pj9MQyLLkLjcAkfIU';
-      const templateID: any = 'template_vpmjsmf';
-      const serviceID: any = 'service_mb79wjx';
+      const userID: string = 'Pj9MQyLLkLjcAkfIU';
+      const templateID: string = 'template_vpmjsmf';
+      const serviceID: string = 'service_mb79wjx';
       try {
-        emailjs.sendForm(serviceID, templateID, e.target, userID);
-        e.target.reset();
-      } catch (error: any) {
-        global.alert('erro: ' + error.message);
+        emailjs.sendForm(serviceID, templateID, e.target as HTMLFormElement, userID);
+        (e.target as HTMLFormElement).reset();
+      } catch (error) {
+        global.alert('erro: ' + error);
       }
       setName('');
       setEmail('');

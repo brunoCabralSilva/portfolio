@@ -41,7 +41,7 @@ export default function CourseItem(props: { item: ICourse, index: number }) {
           <ul className="mt-2 text-sm">
             {
               showMoreData
-                && item.description.map((text: String, index: number) => (
+                && item.description.map((text: string, index: number) => (
                   <li className="mb-2" key={index}> - { text }</li>
                 ))
             }
@@ -49,7 +49,7 @@ export default function CourseItem(props: { item: ICourse, index: number }) {
               <div className="flex flex-wrap">
                 <strong className="pr-1">Competências: </strong>
                 {
-                  item.skills.map((text: String, index: number) => (
+                  item.skills.map((text: string, index: number) => (
                     <div className="flex" key={index}>
                       <span>{ text }</span>
                       { index < item.skills.length - 1 && <span className="px-1"> · </span> }

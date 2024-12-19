@@ -1,4 +1,4 @@
-import { ICourse, IJob } from '@/interfaces';
+import { ICourse } from '@/interfaces';
 import academicsList from '../data/academics.json';
 import CourseItem from './courseItem';
 export default function Academics() {

@@ -79,7 +79,7 @@ export default function ProjectItem(props: { item: IProject, index: number }) {
               <div className="flex flex-wrap">
                 <strong className="pr-1">Tecnologias: </strong>
                 {
-                  item.skills.map((text: String, index: number) => (
+                  item.skills.map((text: string, index: number) => (
                     <div className="flex" key={index}>
                       <span>{ text }</span>
                       { index < item.skills.length - 1 && <span className="px-1"> · </span> }
