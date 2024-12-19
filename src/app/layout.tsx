@@ -16,16 +16,16 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "Portfólio",
   description: "Portfólio de Bruno Cabral - Desenvolvedor Fullstack",
-  openGraph: {
-    images: [
-      {
-        url: "https://media.licdn.com/dms/image/v2/D4D16AQGkz1V76eEzuA/profile-displaybackgroundimage-shrink_350_1400/profile-displaybackgroundimage-shrink_350_1400/0/1698852550654?e=1740009600&v=beta&t=MuNe9y7culOznmyFJTBtyef8VA8BmtxvoreoRFHfRQU",
-        width: 1200,
-        height: 630,
-        alt: "Uma prévia do portfólio de Bruno Cabral.",
-      },
-    ],
-  }
+  // openGraph: {
+  //   images: [
+  //     {
+  //       url: "https://media.licdn.com/dms/image/v2/D4D16AQGkz1V76eEzuA/profile-displaybackgroundimage-shrink_350_1400/profile-displaybackgroundimage-shrink_350_1400/0/1698852550654?e=1740009600&v=beta&t=MuNe9y7culOznmyFJTBtyef8VA8BmtxvoreoRFHfRQU",
+  //       width: 1200,
+  //       height: 630,
+  //       alt: "Uma prévia do portfólio de Bruno Cabral.",
+  //     },
+  //   ],
+  // }
 };
 
 export default function RootLayout({
@@ -35,6 +35,12 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <head>
+        <meta
+            property="og:image"
+            content="https://media.licdn.com/dms/image/v2/D4D16AQGkz1V76eEzuA/profile-displaybackgroundimage-shrink_350_1400/profile-displaybackgroundimage-shrink_350_1400/0/1698852550654?e=1740009600&v=beta&t=MuNe9y7culOznmyFJTBtyef8VA8BmtxvoreoRFHfRQU"
+          />
+      </head>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
