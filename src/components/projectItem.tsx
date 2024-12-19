@@ -1,6 +1,5 @@
 'use client'
 import { IProject } from "@/interfaces";
-import projectList from '../data/projects.json';
 import { useState } from "react";
 import Image from "next/image";
 
