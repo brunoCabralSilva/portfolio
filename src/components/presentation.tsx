@@ -12,7 +12,7 @@ export default function Presentation() {
   } = useContext(contexto);
 
   return(
-    <div className="mt-10 sm:mt-5 mb-3 bg-white rounded-xl relative">
+    <div className="mt-5 mb-3 bg-white rounded-xl relative">
       { showInformations && <Informations />  }
       { sendMessage && <Message />  }
       <div className="rounded-full absolute z-10 top-12 sm:top-20 md:top-28 left-2 sm:left-5">
