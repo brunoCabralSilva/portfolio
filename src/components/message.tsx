@@ -66,9 +66,9 @@ export default function Message() {
   }
 
   return(
-    <div className="w-full h-screen fixed top-0 left-0 bg-black/60 flex justify-center z-30 py-[5vh]">
-      <div className="px-2 sm:px-0 w-11/12 sm:w-2/3 bg-white h-[90vh] mt-2 rounded-xl relative">
-        <div className="flex items-center justify-between w-full px-2 py-2 top-0 right-0 h-[10vh]">
+    <div className="w-full overflow-y-scroll h-screen fixed top-0 left-0 bg-black/60 flex justify-center z-30 py-[5vh] items-center">
+      <div className="w-11/12 sm:w-2/3 mt-2 rounded-xl mb-[5vh]">
+        <div className="sm:px-2 px-4 flex items-center justify-between w-full py-2 top-0 right-0 bg-white rounded-t-xl">
           <div className="text-black cursor-pointer font-bold duration-400 transition-colors text-base sm:text-lg leading-5 sm:pl-5">
             Envie uma Mensagem
           </div>
@@ -81,7 +81,7 @@ export default function Message() {
           </button>
         </div>
         <hr />
-        <form onSubmit={sendEmail} className="flex flex-col h-[80vh] pt-2 2xl:pt-0 px-2 sm:px-7 xl:px-7 justify-start w-full overflow-y-auto text-sm sm:text-base">
+        <form onSubmit={sendEmail} className="px-4 flex flex-col pt-2 2xl:pt-0 sm:px-7 justify-start w-full text-sm sm:text-base bg-white pb-10 rounded-b-xl ">
           <label
             className={`w-full flex flex-col text-left py-2 ${errorEmail ? 'text-red-500' : ''}`}
             htmlFor="from_email"
@@ -148,7 +148,7 @@ export default function Message() {
           </button>
           {
             messageToUser !== '' &&
-            <div className={`flex flex-col sm:flex-row w-full items-center sm:items-start justify-center col-span-3 text-center font-bold mt-5 mb-5 ${type === 'ok' ? 'text-green-500 ' : 'text-red-500'}`}>
+            <div className={`flex flex-col sm:flex-row w-full items-center sm:items-start justify-center col-span-3 text-center font-bold mt-5 ${type === 'ok' ? 'text-green-500 ' : 'text-red-500'}`}>
               { type === 'ok' ? <BiMailSend className="text-2xl mr-2" /> : <VscError className="text-2xl mr-2" /> } { messageToUser }
             </div>
           }

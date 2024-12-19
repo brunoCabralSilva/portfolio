@@ -12,9 +12,9 @@ export default function Informations() {
   const [email, setEmail] = useState(true);
 
   return(
-    <div className="w-full h-screen fixed top-0 left-0 bg-black/60 flex justify-center z-30 py-[5vh]">
-      <div className="px-2 sm:px-0 w-11/12 sm:w-2/3 bg-white h-[90vh] mt-2 rounded-xl relative">
-        <div className="flex items-center justify-between w-full px-2 py-2 top-0 right-0 h-[10vh]">
+    <div className="w-full overflow-y-scroll h-screen fixed top-0 left-0 bg-black/60 flex justify-center z-30 py-[5vh] items-center">
+      <div className="w-11/12 sm:w-2/3 mt-2 mb-[5vh]">
+        <div className="bg-white rounded-t-xl flex items-center justify-between w-full px-4 sm:px-5 py-2 top-0 right-0">
           <div className="text-[#0A66C2] hover:text-[#004182] cursor-pointer font-bold duration-400 transition-colors text-lg leading-5 sm:pl-5">
             Informações de Contato
           </div>
@@ -27,7 +27,7 @@ export default function Informations() {
           </button>
         </div>
         <hr />
-        <div className="px-2 sm:px-5 font-bold flex flex-col h-[80vh] pt-2 2xl:pt-0 lg:pl-10 2xl:justify-center justify-start w-full overflow-y-auto text-sm sm:text-base">
+        <div className="bg-white rounded-b-xl px-4 sm:px-5 font-bold flex flex-col pt-2 2xl:pt-0 pb-5 lg:pl-10 2xl:justify-center justify-start w-full text-sm sm:text-base">
           <div className="pt-2 flex gap-2">
             <div className="bg-black h-5 w-5 rounded flex items-center justify-center p-1 mr-1 sm:mr-3">
               <FaDownload className="text-lg text-white" />
