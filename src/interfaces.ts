@@ -1,20 +1,20 @@
 export interface IJob {
-  role: String;
-  company: String;
-  job: String;
-  serviceTime: String;
-  time: String;
-  local: String;
-  type: String;
-  description: String[];
+  role: string;
+  company: string;
+  job: string;
+  serviceTime: string;
+  time: string;
+  local: string;
+  type: string;
+  description: string[];
 }
 
 export interface ICourse {
-  company: String;
-  course: String;
-  time: String;
-  description: String[];
-  skills: String[];
+  company: string;
+  course: string;
+  time: string;
+  description: string[];
+  skills: string[];
 }
 
 export interface IArticle {
